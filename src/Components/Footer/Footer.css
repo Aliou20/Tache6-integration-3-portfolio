@@ -1,0 +1,34 @@
+.footer_icon {
+     background-image: url('../../Assets/background.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     margin: 0 auto;
+}
+.input {
+     border-width: 0 0 1px 0;
+     border-radius: 0;
+}
+.footer_btn_envoyer {
+     border : none ; 
+     padding: 10px 15px;
+     background-color: #FE9800;
+     color: white;
+     font-weight: 800;
+}
+.textaria {
+     border: 2px solid #eee
+}
+.footer_after {
+     position: relative;
+}
+.footer_after::after {
+     content: "";
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 5px;
+    height: 130px;
+    background-color:white;
+
+}

@@ -1,0 +1,21 @@
+.navbar_link {
+     font-weight: bold;
+     margin: 0 30px;
+     color: white;
+     position: relative;
+
+}
+/* .navbar_link::after {
+     content: "";
+     position: absolute;
+     width: 85px;
+     height: 3px;
+     background-color: #FE9800;
+     bottom: -14px;
+     margin-right: 50px;
+     left: 0px;
+} */
+
+.navlink_active {
+     border-bottom: 4px solid #FE9800
+}
